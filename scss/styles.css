@@ -30,78 +30,76 @@ body {
   font-weight: 300;
   color: #FFFFFF;
   background-color: #18052C;
+  z-index: 4;
 }
 
-body .blur {
-  position: absolute;
-  height: 500%;
-  width: 100vw;
-  z-index: -1;
-  background-color: red;
-  background: transparent;
-  -webkit-backdrop-filter: blur(90px);
-          backdrop-filter: blur(90px);
-  --webkit-backdrop-filter: blur(40px);
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
-body::before {
-  content: '';
-  display: block;
-  background-color: #4e71d3;
+body .shapes .shape1, body .shapes .shape2, body .shapes .shape3, body .shapes .shape4, body .shapes .shape5, body .shapes .shape6 {
   z-index: -1;
   border-radius: 300rem;
+  position: absolute;
+  opacity: 0.3;
+  -webkit-filter: blur(12rem);
+          filter: blur(12rem);
+}
+
+@media (max-width: 1098px) {
+  body .shapes .shape1, body .shapes .shape2, body .shapes .shape3, body .shapes .shape4, body .shapes .shape5, body .shapes .shape6 {
+    display: none;
+  }
+}
+
+body .shapes .shape1 {
+  background-color: #4e71d3;
   width: 80rem;
   height: 80rem;
-  position: absolute;
   top: 0;
   right: -5rem;
   top: 10rem;
-  opacity: 0.3;
 }
 
-body::after {
-  content: '';
-  display: block;
-  background-color: #d34ebd;
-  z-index: -2;
-  border-radius: 300rem;
-  width: 40rem;
-  height: 40rem;
-  position: absolute;
+body .shapes .shape2 {
   right: 3rem;
   top: -35rem;
-  opacity: 0.3;
 }
 
-body::after {
-  content: '';
-  display: block;
-  background-color: #d34ebd;
-  z-index: -2;
-  border-radius: 300rem;
-  width: 40rem;
-  height: 40rem;
-  position: absolute;
+body .shapes .shape3 {
   right: 3rem;
   top: 50rem;
   left: -15rem;
-  opacity: 0.3;
 }
 
-body::before {
-  content: '';
-  display: block;
+body .shapes .shape4 {
   background-color: #4e71d3;
-  z-index: -2;
-  border-radius: 300rem;
   height: 60rem;
   width: 60rem;
-  position: absolute;
   right: 3rem;
   top: 120rem;
   left: -15rem;
-  opacity: 0.3;
+}
+
+body .shapes .shape5 {
+  right: -3rem;
+  top: 90rem;
+}
+
+body .shapes .shape6 {
+  right: -3rem;
+  top: 170rem;
+}
+
+body .shapes .shape7 {
+  z-index: -1;
+  position: absolute;
+  width: 64.25rem;
+  height: 28rem;
+  background-color: #18052C;
+  top: 65rem;
+}
+
+body .shapes .shape6, body .shapes .shape5, body .shapes .shape3, body .shapes .shape2 {
+  background-color: #d34ebd;
+  width: 40rem;
+  height: 40rem;
 }
 
 h1,
@@ -123,6 +121,13 @@ h2 {
   line-height: 4.25rem;
 }
 
+@media (max-width: 728px) {
+  h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+
 p {
   opacity: 0.5;
   line-height: 1.6rem;
@@ -134,7 +139,7 @@ h3 {
 
 html, body {
   margin: 0;
-  height: 100%;
+  height: auto;
   overflow-x: hidden;
 }
 
@@ -218,6 +223,12 @@ html, body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.container .menu_icons_icon:hover {
+  cursor: pointer;
+  -webkit-filter: invert(43%) sepia(37%) saturate(3754%) hue-rotate(291deg) brightness(102%) contrast(101%);
+          filter: invert(43%) sepia(37%) saturate(3754%) hue-rotate(291deg) brightness(102%) contrast(101%);
 }
 
 @media (max-width: 1098px) {
@@ -518,7 +529,7 @@ html, body {
 }
 
 .container .createandsell {
-  margin-top: 4rem;
+  margin-top: 10rem;
 }
 
 .container .createandsell_title {
@@ -567,8 +578,8 @@ html, body {
 }
 
 .container .createandsell_items_item:nth-child(2) .createandsell_items_item_icon img {
-  -webkit-filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(309deg) brightness(100%) contrast(107%);
-          filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(309deg) brightness(100%) contrast(107%);
+  -webkit-filter: invert(43%) sepia(37%) saturate(3754%) hue-rotate(291deg) brightness(102%) contrast(101%);
+          filter: invert(43%) sepia(37%) saturate(3754%) hue-rotate(291deg) brightness(102%) contrast(101%);
 }
 
 .container .createandsell_items_item:nth-child(2) h3 {
@@ -829,7 +840,6 @@ html, body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 1rem;
 }
 
 .container .footer .social > div {
@@ -837,6 +847,11 @@ html, body {
   display: -ms-flexbox;
   display: flex;
   gap: 1.5rem;
+}
+
+.container .footer .social i:hover {
+  color: #FF47CE;
+  cursor: pointer;
 }
 
 .container .copyright {
