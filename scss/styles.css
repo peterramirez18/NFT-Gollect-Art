@@ -141,6 +141,7 @@ html, body {
   margin: 0;
   height: auto;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 .container {
@@ -281,6 +282,10 @@ html, body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+}
+
+.container .hero_info_title {
+  font-weight: 600;
 }
 
 .container .hero_info_paragraph {
