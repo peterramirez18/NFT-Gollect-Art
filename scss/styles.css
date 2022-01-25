@@ -246,6 +246,15 @@ h3 {
   }
 }
 
+.container .menuopen .menu_nav {
+  -webkit-transform: translateX(0rem);
+          transform: translateX(0rem);
+}
+
+.container .iconhamburger {
+  cursor: pointer;
+}
+
 .container .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,9 +362,8 @@ h3 {
   max-width: 25rem;
   height: 27.9375rem;
   background-color: rebeccapurple;
+  overflow: hidden;
   position: relative;
-  background-image: url(https://images.unsplash.com/photo-1563089145-599997674d42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-  background-size: cover;
 }
 
 .container .card_heart {
@@ -431,6 +439,13 @@ h3 {
 @media (max-width: 1098px) {
   .container .herocard {
     margin-top: 5rem;
+  }
+}
+
+@media (max-width: 728px) {
+  .container .herocard {
+    width: 100%;
+    height: 27.9375rem;
   }
 }
 
@@ -730,5 +745,14 @@ h3 {
 .container .partner_logos img {
   width: 17rem;
   opacity: 0.8;
+}
+
+@media (max-width: 728px) {
+  .container .partner_logos img {
+    width: 10rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
