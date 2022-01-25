@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 654 212" style="enable-background:new 0 0 654 212;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7A7A7A;}
+	.st1{opacity:0.88;fill-rule:evenodd;clip-rule:evenodd;fill:#7A7A7A;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#7A7A7A;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#7A7A7A;fill-opacity:0.2;}
+</style>
+<title>OKEx logo &amp; Subtitle</title>
+<desc>Created with Sketch.</desc>
+<g id="Navigation">
+	<g transform="translate(-80.000000, -80.000000)">
+		<g transform="translate(80.000000, 80.000000)">
+			<g id="OKEx-logo">
+				<path id="Text" class="st0" d="M336.7,105.8c0,7.1-1.1,13.8-3.4,20c-2.3,6.3-5.5,11.7-9.8,16.4s-9.5,8.4-15.8,11.2
+					c-6.3,2.8-13.4,4.1-21.4,4.1s-15.1-1.4-21.4-4.1c-6.3-2.8-11.5-6.5-15.8-11.2c-4.3-4.7-7.6-10.2-9.8-16.4
+					c-2.2-6.3-3.3-12.9-3.3-20c0-7,1.1-13.7,3.3-20c2.2-6.3,5.5-11.8,9.8-16.5c4.3-4.7,9.6-8.4,15.8-11.2c6.3-2.8,13.4-4.1,21.4-4.1
+					s15.1,1.4,21.4,4.1c6.3,2.8,11.5,6.5,15.8,11.2c4.3,4.7,7.5,10.2,9.8,16.5C335.6,92.1,336.7,98.8,336.7,105.8z M286.4,141.1
+					c4.9,0,9.2-0.9,12.8-2.7c3.7-1.8,6.7-4.3,9.2-7.4c2.5-3.2,4.3-6.9,5.5-11.2c1.2-4.3,1.8-9,1.8-14s-0.6-9.7-1.8-14
+					c-1.2-4.3-3-8-5.5-11.2c-2.5-3.2-5.5-5.6-9.2-7.4c-3.7-1.8-7.9-2.7-12.8-2.7s-9.2,0.9-12.8,2.7c-3.7,1.8-6.7,4.3-9.2,7.4
+					c-2.5,3.2-4.3,6.9-5.5,11.2c-1.2,4.3-1.8,9-1.8,14s0.6,9.7,1.8,14c1.2,4.3,3,8,5.5,11.2s5.5,5.6,9.2,7.4
+					C277.2,140.2,281.5,141.1,286.4,141.1z M349.9,155.8v-100h21v48l34.7-48h24.3l-36.8,49.4l39.3,50.6h-26l-35.6-49.1v49.1H349.9z
+					 M440.8,55.8h60.1v16.7h-39v24.2h37.2v16.6h-37.2v25.8h39.5v16.7h-60.5v-100H440.8z M575.8,55.8h22.8l-32.9,49.7l33.5,50.3h-23
+					l-21.6-34.1L533,155.8h-23l33.5-50.3l-32.9-49.7h22.8l21.2,33.8L575.8,55.8z"/>
+				<g id="Path-raw">
+					<circle id="Oval" class="st1" cx="106" cy="48" r="48"/>
+					<circle id="Oval-Copy" class="st1" cx="106" cy="164" r="48"/>
+					<circle id="Oval-Copy-2" class="st1" cx="164" cy="106" r="48"/>
+					<circle id="Oval-Copy-3" class="st2" cx="48" cy="106" r="48"/>
+					<path id="Combined-Shape" class="st2" d="M94.7,94.7c-17.4-4.2-31.1-17.9-35.3-35.3C76.7,63.6,90.4,77.3,94.7,94.7z"/>
+					<path class="st2" d="M59.3,152.7c4.2-17.4,17.9-31.1,35.3-35.3C90.4,134.7,76.7,148.4,59.3,152.7z"/>
+					<path class="st2" d="M117.3,117.3c17.4,4.2,31.1,17.9,35.3,35.3C135.3,148.4,121.6,134.7,117.3,117.3z"/>
+					<path class="st2" d="M152.7,59.3c-4.2,17.4-17.9,31.1-35.3,35.3C121.6,77.3,135.3,63.6,152.7,59.3z"/>
+				</g>
+			</g>
+			<rect id="lien" x="650" y="46" class="st3" width="4" height="120"/>
+		</g>
+	</g>
+</g>
+</svg>
