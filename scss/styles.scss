@@ -125,15 +125,14 @@ h3 {
     font-weight: 400;
 }
 
+html, body {margin: 0; height: 100%; overflow-x: hidden}
 
 .container {
     width: 100vw;
     padding: 3.1rem 8.5rem;
-    // padding: 4% 8%;
-    overflow-x: visible;
-    display: flex;
-    flex-direction: column;
     margin: auto;
+    
+    
 
     @media (max-width: $breakpoint-medium) {
         padding: 1rem 1rem;

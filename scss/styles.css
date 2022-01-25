@@ -132,17 +132,15 @@ h3 {
   font-weight: 400;
 }
 
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
 .container {
   width: 100vw;
   padding: 3.1rem 8.5rem;
-  overflow-x: visible;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
   margin: auto;
 }
 
