@@ -520,6 +520,10 @@ html, body {margin: 0; height: auto; overflow-x: hidden; width: 100vw;}
 
                 &:nth-child(2){
                     background-color: $White;
+
+                    @media (min-width: $breakpoint-medium) {
+                        transform: translateY(-2rem);
+                    }
                     .createandsell_items_item_icon{
                         background-color: $Pink;
 
@@ -721,6 +725,12 @@ html, body {margin: 0; height: auto; overflow-x: hidden; width: 100vw;}
             & > div{
                 display: flex;
                 gap: 2rem;
+            }
+            p{
+                &:hover{
+                    opacity: 1;
+                    cursor: pointer;
+                }
             }
         }
 

@@ -700,6 +700,13 @@ html, body {
   background-color: #FFFFFF;
 }
 
+@media (min-width: 1098px) {
+  .container .createandsell_items_item:nth-child(2) {
+    -webkit-transform: translateY(-2rem);
+            transform: translateY(-2rem);
+  }
+}
+
 .container .createandsell_items_item:nth-child(2) .createandsell_items_item_icon {
   background-color: #FF47CE;
 }
@@ -953,6 +960,11 @@ html, body {
   display: -ms-flexbox;
   display: flex;
   gap: 2rem;
+}
+
+.container .footer .learnmore p:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .container .footer .contactus p > p {
