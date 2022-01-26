@@ -1,0 +1,41 @@
+@keyframes movinginfinite {
+    0% {
+      transform: translateX(0rem);
+    }
+  
+    50% {
+      transform: translateX(10rem);
+    }
+
+    100% {
+        transform: translateX(0rem);
+    }
+  }
+
+  @keyframes movinginfinite2 {
+    0% {
+      transform: translateX(0rem);
+    }
+  
+    50% {
+      transform: translateX(-40rem);
+    }
+
+    100% {
+        transform: translateX(0rem);
+    }
+  }
+
+  @keyframes movinginfinite3 {
+    0% {
+      transform: translateY(0rem);
+    }
+  
+    50% {
+      transform: translateY(-40rem);
+    }
+
+    100% {
+        transform: translateY(0rem);
+    }
+  }

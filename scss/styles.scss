@@ -1,10 +1,12 @@
 @import "variables";
+@import "classes";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -13,6 +15,9 @@ body {
     background-color: $Purple;
     z-index: 4;
 
+
+    
+
    .shapes{
         .shape1, .shape2, .shape3, .shape4, .shape5, .shape6{
             z-index: -1;
@@ -20,14 +25,12 @@ body {
             position: absolute;
             opacity: 0.3;
 
-            filter: blur(12rem);
+            filter: blur(8rem);
 
             @media (max-width: $breakpoint-medium) {
                 display: none;
             }
         }
-
-        
 
        .shape1{
         background-color: rgb(78, 113, 211);
@@ -81,7 +84,27 @@ body {
         width: 40rem;
         height: 40rem;
        }
-   }  
+
+       .shape1, .shape4{
+        animation-iteration-count: infinite;
+        animation-name: movinginfinite;
+        animation-duration: 10s;
+       }
+
+       .shape2, .shape5, .shape6{
+        animation-iteration-count: infinite;
+        animation-name: movinginfinite2;
+        animation-duration: 10s;
+       }
+
+       .shape3{
+        animation-iteration-count: infinite;
+        animation-name: movinginfinite3;
+        animation-duration: 10s; 
+       }
+   } 
+  
+  
 }
 h1,
 h2 {
@@ -235,7 +258,7 @@ html, body {margin: 0; height: auto; overflow-x: hidden; width: 100vw;}
             &_title{
                 font-weight: 600;
             }
-            
+
             &_paragraph {
                 margin-top: 3.5rem;
                 width: 33.6rem;
@@ -497,7 +520,6 @@ html, body {margin: 0; height: auto; overflow-x: hidden; width: 100vw;}
 
                 &:nth-child(2){
                     background-color: $White;
-
                     .createandsell_items_item_icon{
                         background-color: $Pink;
 
@@ -529,8 +551,7 @@ html, body {margin: 0; height: auto; overflow-x: hidden; width: 100vw;}
 
                     img{
                         width: 1.8rem;
-                        filter: invert(43%) sepia(37%) saturate(3754%) hue-rotate(291deg) brightness(102%) contrast(101%);
-                        
+                        filter: invert(43%) sepia(37%) saturate(3754%) hue-rotate(291deg) brightness(102%) contrast(101%);       
                     }
                 }
 
