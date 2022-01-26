@@ -656,7 +656,7 @@ html, body {
 }
 
 .container .createandsell {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 .container .createandsell_title {
@@ -665,7 +665,7 @@ html, body {
 
 .container .createandsell_items {
   gap: 1.5rem;
-  margin-top: 3.5rem;
+  margin-top: 6rem;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;

@@ -489,7 +489,7 @@ html, body {margin: 0; height: auto; overflow-x: hidden; width: 100vw;}
     }
 
     .createandsell{
-        margin-top: 10rem;
+        margin-top: 15rem;
         
 
         &_title{
@@ -498,7 +498,7 @@ html, body {margin: 0; height: auto; overflow-x: hidden; width: 100vw;}
 
         &_items{
             gap: 1.5rem;
-            margin-top: 3.5rem;
+            margin-top: 6rem;
 
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
