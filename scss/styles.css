@@ -128,19 +128,24 @@ body {
   z-index: 4;
 }
 
-body .shapes .shape1, body .shapes .shape2, body .shapes .shape3, body .shapes .shape4, body .shapes .shape5, body .shapes .shape6 {
+@media (max-width: 1098px) {
+  body .shapes {
+    display: none;
+  }
+}
+
+body .shapes .shape1,
+body .shapes .shape2,
+body .shapes .shape3,
+body .shapes .shape4,
+body .shapes .shape5,
+body .shapes .shape6 {
   z-index: -1;
   border-radius: 300rem;
   position: absolute;
   opacity: 0.3;
   -webkit-filter: blur(8rem);
           filter: blur(8rem);
-}
-
-@media (max-width: 1098px) {
-  body .shapes .shape1, body .shapes .shape2, body .shapes .shape3, body .shapes .shape4, body .shapes .shape5, body .shapes .shape6 {
-    display: none;
-  }
 }
 
 body .shapes .shape1 {
@@ -191,13 +196,23 @@ body .shapes .shape7 {
   top: 65rem;
 }
 
-body .shapes .shape6, body .shapes .shape5, body .shapes .shape3, body .shapes .shape2 {
+@media (max-width: 1098px) {
+  body .shapes .shape7 {
+    display: none;
+  }
+}
+
+body .shapes .shape6,
+body .shapes .shape5,
+body .shapes .shape3,
+body .shapes .shape2 {
   background-color: #d34ebd;
   width: 40rem;
   height: 40rem;
 }
 
-body .shapes .shape1, body .shapes .shape4 {
+body .shapes .shape1,
+body .shapes .shape4 {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-name: movinginfinite;
@@ -206,7 +221,9 @@ body .shapes .shape1, body .shapes .shape4 {
           animation-duration: 10s;
 }
 
-body .shapes .shape2, body .shapes .shape5, body .shapes .shape6 {
+body .shapes .shape2,
+body .shapes .shape5,
+body .shapes .shape6 {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-name: movinginfinite2;
@@ -259,11 +276,20 @@ h3 {
   font-weight: 400;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   height: auto;
   overflow-x: hidden;
   width: 100vw;
+}
+
+@media (max-width: 1098px) {
+  html,
+  body {
+    display: table;
+    width: 20rem !important;
+  }
 }
 
 .container {
@@ -659,6 +685,12 @@ html, body {
   margin-top: 15rem;
 }
 
+@media (max-width: 1098px) {
+  .container .createandsell {
+    margin-top: 5rem;
+  }
+}
+
 .container .createandsell_title {
   text-align: center;
 }
@@ -670,6 +702,12 @@ html, body {
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media (max-width: 1098px) {
+  .container .createandsell_items {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 1098px) {
